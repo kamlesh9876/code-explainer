@@ -1,34 +1,39 @@
 # Python Code Explainer
 
+![Python Code Explainer](https://img.shields.io/badge/Flask-%23000?style=for-the-badge&logo=flask&logoColor=white)
+
 ## Overview
 
-The **Python Code Explainer** is a web application built using Flask, which allows users to paste Python code and get a detailed explanation of what the code does. The application features:
+The **Python Code Explainer** is an interactive web application built with Flask, designed to help users understand Python code by providing detailed explanations. Simply paste your Python code, and the app will analyze it and generate a readable explanation, making it easier to comprehend.
 
-- **Syntax highlighting** for Python code.
-- **Auto-suggestions** for common Python keywords.
-- **Error handling** for invalid code.
-- **Background video** to enhance the user experience.
+This project is equipped with the following features:
+- **Syntax Highlighting** for better code visualization.
+- **Auto-suggestions** for common Python keywords as you type.
+- **Loading Indicators** while explanations are being fetched.
+- **Error Handling** to manage invalid or incorrect code input.
 
-## Features
+## Key Features
 
-- **Interactive UI**: Clean and modern design with a smooth and attractive UI.
-- **Python Code Parsing**: The app explains Python code by parsing it and returning a readable explanation.
-- **Auto-suggestions**: While typing, the input box provides Python keyword suggestions.
-- **Loading Indicator**: Displays "Processing..." while the explanation is being fetched.
-- **Error Handling**: Alerts the user with a message if something goes wrong.
-- **Background Video**: Adds an engaging dynamic background video to the page.
-- **Responsive Design**: Works well on both desktop and mobile devices.
+- **Interactive User Interface**: A sleek, modern UI designed for seamless interaction.
+- **Python Code Parsing**: The app intelligently analyzes the code and provides a step-by-step breakdown of what each part does.
+- **Auto-suggestions**: As you type, get real-time Python keyword suggestions (e.g., `def`, `return`, `if`).
+- **Error Feedback**: Friendly error messages that help you identify issues with your code.
+- **Background Video**: Adds a dynamic touch with a background video for an engaging user experience.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
+
+## Demo
+
+Check out the live demo here: [Python Code Explainer Demo](http://127.0.0.1:5000/)
 
 ## Requirements
 
-Before running the application, ensure you have the following dependencies installed:
+Before you start, ensure that you have the following installed:
 
-- Python 3.x
-- Flask
-- Awesomplete (for autocomplete suggestions)
-- Other dependencies in `requirements.txt`
+- **Python 3.x** or higher
+- **Flask** for the web framework
+- **Awesomplete** for auto-complete functionality
 
-### Installation
+### Installation Instructions
 
 1. **Clone the repository**:
    ```bash
