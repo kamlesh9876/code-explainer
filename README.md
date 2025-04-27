@@ -7,14 +7,17 @@ The **Python Code Explainer** is a web application built using Flask, which allo
 - **Syntax highlighting** for Python code.
 - **Auto-suggestions** for common Python keywords.
 - **Error handling** for invalid code.
+- **Background video** to enhance the user experience.
 
 ## Features
 
-- **Interactive UI**: Clean and modern design.
+- **Interactive UI**: Clean and modern design with a smooth and attractive UI.
 - **Python Code Parsing**: The app explains Python code by parsing it and returning a readable explanation.
 - **Auto-suggestions**: While typing, the input box provides Python keyword suggestions.
 - **Loading Indicator**: Displays "Processing..." while the explanation is being fetched.
 - **Error Handling**: Alerts the user with a message if something goes wrong.
+- **Background Video**: Adds an engaging dynamic background video to the page.
+- **Responsive Design**: Works well on both desktop and mobile devices.
 
 ## Requirements
 
@@ -23,6 +26,7 @@ Before running the application, ensure you have the following dependencies insta
 - Python 3.x
 - Flask
 - Awesomplete (for autocomplete suggestions)
+- Other dependencies in `requirements.txt`
 
 ### Installation
 
